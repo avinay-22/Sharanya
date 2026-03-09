@@ -1,5 +1,10 @@
 .cherry{
-    color: #D2042D;
+    color:#DE3163;
     text-align: center;
-    background-color: yellow;
+  background-color:#ffe5ea;
+  color:#D2042D;
+
+}
+.body{
+    background-color: #ffe5ea;
 }
