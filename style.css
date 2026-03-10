@@ -1,10 +1,25 @@
 .cherry{
-    color:#DE3163;
-    text-align: center;
-  background-color:#ffe5ea;
-  color:#D2042D;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;  /* center horizontally */
+    gap: 30px;
+    background-color: lightgray;
+    padding: 10px;
+    
 
 }
 .body{
     background-color: #ffe5ea;
+    text-align: center;
+}
+.item:hover{
+  color: white;
+}
+.logo-image {
+  height: 20px;
+  width: 20px;
+}
+.dive{
+  display: flex;
+  justify-content: space-between;
 }
