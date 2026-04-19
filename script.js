@@ -14,3 +14,7 @@ window.onload = typeEffect;
 function showMessage() {
     document.getElementById("loveMessage").style.display = "block";
 }
+
+window.addEventListener("click", function () {
+    document.getElementById("bgMusic").play();
+});
